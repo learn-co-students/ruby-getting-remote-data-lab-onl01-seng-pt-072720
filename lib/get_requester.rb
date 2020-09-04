@@ -4,8 +4,6 @@ require 'json'
 
 class GetRequester
 
-  @url = String.new
-
   def initialize(url)
     @url = url
   end
